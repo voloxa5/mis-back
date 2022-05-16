@@ -1,0 +1,92 @@
+{
+    "page": {
+        "format": "A4",
+        "orientation": "P",
+        "title": "Caption"
+    },
+    "body": [
+        {
+            "type": "paragraph",
+            "style": "style1",
+            "content": [
+                {
+                    "type": "text",
+                    "style": "style11",
+                    "content": "test11 "
+                },
+                {
+                    "type": "text",
+                    "style": "",
+                    "content": "test12 "
+                }
+            ]
+        },
+        {
+            "type": "table",
+            "style": "none",
+            "data": "data1",
+            "columns": [
+                {
+                    "title": "col1",
+                    "width": 43,
+                    "name": "name1"
+                },
+                {
+                    "title": "col2",
+                    "width": 23,
+                    "name": "name2"
+                }
+            ]
+        },
+        {
+            "type": "paragraph",
+            "style": "style2",
+            "content": [
+                {
+                    "type": "text",
+                    "style": "style21",
+                    "content": "test21 "
+                },
+                {
+                    "type": "data",
+                    "style": "style21",
+                    "content": "data1"
+                }
+            ]
+        }
+    ],
+    "footer": "",
+    "header": "",
+    "styles": [
+        {
+            "name": "style1",
+            "size": 22
+        },
+        {
+            "name": "style2",
+            "size": 22
+        },
+        {
+            "name": "style11",
+            "size": 22
+        },
+        {
+            "name": "style21",
+            "size": 22
+        },
+        {
+            "name": "style12",
+            "size": 22
+        },
+        {
+            "name": "style22",
+            "firstLineIndent": "",
+            "leftIndent": "",
+            "fontSize": "",
+            "bold": "",
+            "fontName": "",
+            "fontColor": "",
+            "alignment": ""
+        }
+    ]
+}
